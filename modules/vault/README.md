@@ -1,20 +1,20 @@
 # Vault / Dreaming Layer
 
-Second Brain mit asynchronen Background-Prozessen.
+Second brain with asynchronous background processes.
 
 ## Status
 
-Stub. Reference-Implementation in Arbeit.
+Stub. Reference implementation in progress.
 
-## Was es macht (geplant)
+## What it does (planned)
 
-Lokaler Markdown-Vault (Obsidian-kompatibel) plus zwei Background-Prozesse:
+Local markdown vault (Obsidian-compatible) plus two background processes:
 
-- **Archivar** — Vault-Evaluator, läuft nachts, schlägt Supersessions/Connections/Decay vor.
-- **Dreaming Cron** — verknüpft neue Notizen mit bestehenden Konzepten, priorisiert offene Threads, schlägt morgens Aktionen vor.
+- **Archivist** — vault evaluator, runs nightly, proposes supersessions / connections / decay.
+- **Dreaming Cron** — links new notes with existing concepts, prioritizes open threads, suggests morning actions.
 
-Beide arbeiten ohne User-Input. Output landet im Inbox-Pattern: Vorschläge in einem Dropbox-Verzeichnis, Mensch reviewed und merged.
+Both run without user input. Output lands in the inbox pattern: proposals in a dropbox directory, human reviews and merges.
 
-## Spec folgt
+## Spec to follow
 
-Wird in eigenem Repo veröffentlicht, sobald Reference-Implementation stabil ist.
+Will be published in its own repo once the reference implementation is stable.

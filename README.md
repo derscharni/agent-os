@@ -1,24 +1,24 @@
 # agent-os
 
-Personal Agent OS — Infrastruktur für AI-Agenten, die deinen Kontext kennen, ohne ihn weiterzugeben.
+Personal Agent OS — infrastructure for AI agents that know your context without giving it away.
 
-## Was das ist
+## What this is
 
-Die meisten AI-Frameworks lösen das falsche Problem. Sie optimieren Tool-Calling und Orchestration. Das ist nicht der Engpass.
+Most AI frameworks solve the wrong problem. They optimize tool-calling and orchestration. That isn't the bottleneck.
 
-Der Engpass ist anders: dein persönlicher Agent hat deinen vollen Kontext. Jede andere KI, die er anspricht, soll bekommen, was sie braucht — nicht mehr. Das ist Context Sovereignty als Infrastruktur. Nicht als Pattern, nicht als Best Practice. Als Code, der läuft.
+The bottleneck is different: your personal agent has your full context. Every other AI it talks to should get what it needs — nothing more. That's context sovereignty as infrastructure. Not as a pattern, not as a best practice. As code that runs.
 
-Dazu kommt der Second Brain Layer: ein System, das ohne dich nachdenkt, priorisiert, verknüpft — und morgens mit Ergebnissen wartet.
+Beyond that, the second brain layer: a system that thinks without you, prioritizes, connects — and meets you in the morning with results.
 
-## Module
+## Modules
 
-- [`context-handshake`](https://github.com/derscharni/context-handshake) — Portable Agent Context. Identität + Session Intent in zwei Markdown-Files. Erstes Modul, MVP live.
+- [`context-handshake`](https://github.com/derscharni/context-handshake) — Portable agent context. Identity + session intent in two markdown files. First module, MVP live.
 - [`modules/sovereignty/`](modules/sovereignty/) — Selective Disclosure Layer. Stub.
 - [`modules/vault/`](modules/vault/) — Second Brain / Dreaming Layer. Stub.
 
 ## Status
 
-Frühe Phase. Aktive Module siehe oben. Roadmap in [ROADMAP.md](ROADMAP.md). Was das Konzept genau abgrenzt, steht in [SPEC.md](SPEC.md).
+Early stage. Active modules above. Roadmap in [ROADMAP.md](ROADMAP.md). Scope and boundaries in [SPEC.md](SPEC.md).
 
 ## Related Work
 

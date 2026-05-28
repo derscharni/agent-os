@@ -1,22 +1,22 @@
 # Sovereignty Layer
 
-Selective Disclosure für persönliche AI-Agenten.
+Selective disclosure for personal AI agents.
 
 ## Status
 
-Stub. Reference-Implementation in Arbeit.
+Stub. Reference implementation in progress.
 
-## Was es macht (geplant)
+## What it does (planned)
 
-Klassifiziert ausgehende Kontext-Fragmente in vier Klassen, bevor sie an externe Services gehen:
+Classifies outgoing context fragments into four classes before they go to external services:
 
-- **PUBLIC** — bereits öffentlich, freie Weitergabe.
-- **NEGOTIABLE** — kontextabhängig, mit Flag passieren.
-- **PRIVATE** — nicht freigegeben, blockieren.
-- **SOVEREIGN** — hochsensibel oder unklar, eskalieren.
+- **PUBLIC** — already public, free to pass.
+- **NEGOTIABLE** — context-dependent, pass with flag.
+- **PRIVATE** — not cleared, block.
+- **SOVEREIGN** — highly sensitive or unclear, escalate.
 
-Klassifikation läuft lokal (Local-LLM, kein Cloud-Call). Regeln sind als Markdown-Datei definiert, nicht als Code — auditierbar, anpassbar.
+Classification runs locally (local LLM, no cloud call). Rules are defined in a markdown file, not in code — auditable, editable.
 
-## Spec folgt
+## Spec to follow
 
-Wird in eigenem Repo veröffentlicht, sobald Reference-Implementation stabil ist.
+Will be published in its own repo once the reference implementation is stable.
