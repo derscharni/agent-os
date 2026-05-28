@@ -19,3 +19,17 @@ Dazu kommt der Second Brain Layer: ein System, das ohne dich nachdenkt, priorisi
 ## Status
 
 Frühe Phase. Aktive Module siehe oben. Roadmap in [ROADMAP.md](ROADMAP.md). Was das Konzept genau abgrenzt, steht in [SPEC.md](SPEC.md).
+
+## Related Work
+
+- **[ax-stack](https://github.com/derscharni/ax-stack)** — The design framework. AX Stack defines the five operational layers of human-agent interaction. agent-os is the infrastructure that runs them.
+- **[context-handshake](https://github.com/derscharni/context-handshake)** — The first published module, portable agent context.
+- **[trust-stack](https://github.com/derscharni/trust-stack)** — Three-layer model for trustworthy agent memory: security, authorization, temporal integrity.
+
+## License
+
+MIT.
+
+---
+
+*by [Jens Scharnetzki](https://www.linkedin.com/in/scharnetzki/) — Agent Experience design and context sovereignty infrastructure.*
